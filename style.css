@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #3e0db0;
+}
+.app {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.app h1 {
+    font-size: 40px;
+    color: #060707;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+
+.quiz {
+    padding: 20px 0;
+
+}
+.quiz h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 500;
+
+}
+
+.btn {
+    background: none;
+    color: #0c0c0c;
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: left;
+    font-weight: 500;
+    cursor: pointer;
+    }
+    .btn:hover:not([disabled]) {
+        background: #250372;
+        color: #fff;
+    }
+    .btn:disabled {
+        cursor: not-allowed;
+    }
+
+#next-btn {
+    background: #521dcd;
+    color: #fff;
+    padding: 10px;
+    border: 0;
+    width: 50%;
+    margin: 20px auto 0;
+    border-radius: 5px;
+    display: block  ;
+    font-weight: 500;
+    cursor: pointer;
+    &:hover {
+        background: #250372;
+    }
+}
+
+.correct {
+    background: rgb(45, 168, 45);
+}
+.wrong {
+    background: rgb(168, 45, 45);
+}
